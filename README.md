@@ -1,55 +1,69 @@
-# Next.js & HeroUI Template
+# 🌟 BMDex (Build My Dex)
 
-This is a template for creating applications using Next.js 14 (pages directory) and HeroUI (v2).
+Welcome to **BMDex**, the open-source platform for creating blockchain tokens effortlessly. Whether you're kickstarting a new crypto project or expanding an existing blockchain ecosystem, BMDex is here to make it simple! 🚀
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/next-pages-template)
+---
 
-> Note: Since Next.js 14, the pages router is recommend migrating to the [new App Router](https://nextjs.org/docs/app) to leverage React's latest features
->
-> Read more: [Pages Router](https://nextjs.org/docs/pages)
+## ✨ Features
 
-## Technologies Used
+- 🔗 **Seamless Token Creation**: Define your token attributes with ease.
+- 📦 **Download Source Code**: Get your token’s source code securely for future customization.
+- 🔒 **Secure Deployment**: Deploy tokens directly to the blockchain with wallet authentication.
+- 🤝 **Open Source**: Collaborate and contribute to enhance BMDex on [GitHub](https://github.com/iamfaizfarhan/bmdex).
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+---
 
-## How to Use
+## 🚀 How It Works
 
-To create a new project based on this template using `create-next-app`, run the following command:
+1. **Connect Your Wallet** 🔐
+   - Use RainbowKit to securely connect your wallet.
+   
+2. **Define Token Parameters** 🛠️
+   - Input token name, symbol, supply, and more in a user-friendly form.
+   
+3. **Deploy & Download** 📥
+   - Deploy the token to your chosen blockchain and download its source code.
+
+---
+
+## 📄 Documentation
+
+Check out the [Documentation](https://github.com/iamfaizfarhan/bmdex/docs) for detailed guides on:
+- Token creation
+- Deployment
+- Collaboration guidelines
+
+---
+
+## 🌍 Contributing
+
+We ❤️ open-source!  
+- Fork the repo, make your changes, and submit a pull request.
+- Explore open issues to collaborate on enhancements.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Next.js
+- **Blockchain**: Ethers.js, Solidity
+- **Styling**: Tailwind CSS
+- **Wallet Integration**: RainbowKit
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## ⭐ Get Started
+
+Clone the repo and start building your blockchain tokens today! 💻
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-pages-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+git clone https://github.com/iamfaizfarhan/bmdex.git
+cd bmdex
 npm install
-```
-
-### Run the development server
-
-```bash
 npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-pages-template/blob/main/LICENSE).
